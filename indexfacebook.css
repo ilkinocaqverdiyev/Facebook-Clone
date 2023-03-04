@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+section {
+    width: 100%;
+    padding: 169px 0;
+    float: left;
+    background-color: #f0f2f5;
+}
+
+.ortalama {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sol {
+    width: 45%;
+    float: left;
+    margin-left: 70px;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 65%;
+    margin-left: -31px;
+    margin-bottom: -10px;
+}
+
+.title {
+    width: 100%;
+    font-size: 20px;
+}
+
+.title h1{
+    font-weight: 500;
+    width: 97%;
+}
+
+.sag {
+    width: 40%;
+    float: right;
+}
+
+.qutu {
+    width: 95%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin-top: -40px;
+    margin-left: -28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputlar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputlar input {
+    width: 100%;
+    border-radius: 7px;
+    padding: 16px 16px;
+    border: 1px solid #dbdbdb;
+    font-size: 16px;
+    margin-bottom: 15px;
+    outline-color: #1877f2;
+}
+
+.giris {
+    width: 99%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.giris a {
+    width: 100%;
+    background-color: #1877f2;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 138px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.unutdum {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.unutdum a {
+    color: #1877f2;
+}
+
+.xett {
+    width: 100%;
+    height: 1px;
+    background-color: #dbdbdb;
+    margin-bottom: 15px;
+}
+
+.yeni {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.yeni a {
+    width: 60%;
+    border: 0;
+    border-radius: 10px;
+    padding: 14px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+}
+
+.asagi-qutu {
+    width: 86%;
+    padding: 25px;
+    text-align: center;
+}
+
+.asagi-qutu a {
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.asagi-qutu span {
+    font-size: 15px;
+}
+/*@media (min-width: 400px) and (max-width: 768px) {
+    section {
+        width: 100%;
+    }
+    div {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+    }
+    a {
+        width: 100%;
+    }
+    span {
+        width: 100%;
+    }
+    .ortalama,
+    .sol,
+    .logo,
+    .title,
+    .sag,
+    .qutu,
+    .inputlar,
+    .giris,
+    .unutdum,
+    .xett,
+    .yeni,
+    .asagi-qutu {
+        width: 100%;
+    }
+}
+@media (min-width: 400px) and (max-width: 768px) {
+    section {
+        width: 50%;
+    }
+    div {
+        width: 50%;
+    }
+    img {
+        width: 50%;
+    }
+    h1 {
+        width: 50%;
+    }
+    input {
+        width: 50%;
+    }
+    a {
+        width: 50%;
+    }
+    span {
+        width: 50%;
+    }
+    .ortalama,
+    .sol,
+    .logo,
+    .title,
+    .sag,
+    .qutu,
+    .inputlar,
+    .giris,
+    .unutdum,
+    .xett,
+    .yeni,
+    .asagi-qutu {
+        width: 50%;
+    }
+}*/
+@media screen and (max-width:768px) {
+    
+
+    section {
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+    }
+    div {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+    }
+    a {
+        width: 100%;
+    }
+    span {
+        width: 100%;
+    }
+    .ortalama,
+    .sol,
+    .logo,
+    .title,
+    .sag,
+    .qutu,
+    .inputlar,
+    .giris,
+    .unutdum,
+    .xett,
+    .yeni,
+    .asagi-qutu {
+        width: 100%;
+    }
+}
